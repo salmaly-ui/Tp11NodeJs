@@ -1,0 +1,169 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "firstName": "Sophie",
+      "lastName": "Martin",
+      "email": "sophie.martin@example.com",
+      "phone": "+33 6 12 34 56 78",
+      "role": "administrator",
+      "status": "active",
+      "createdAt": "2024-01-15T10:30:00Z"
+    },
+    {
+      "id": "3",
+      "firstName": "Julie",
+      "lastName": "Petit",
+      "email": "julie.petit@example.com",
+      "phone": "+33 6 34 56 78 90",
+      "role": "user",
+      "status": "inactive",
+      "createdAt": "2024-03-10T09:45:00Z"
+    },
+    {
+      "id": "4",
+      "firstName": "Nicolas",
+      "lastName": "Dubois",
+      "email": "nicolas.dubois@example.com",
+      "phone": "+33 6 45 67 89 01",
+      "role": "moderator",
+      "status": "active",
+      "createdAt": "2024-01-05T16:20:00Z"
+    },
+    {
+      "firstName": "SAFIA",
+      "lastName": "BADDOU",
+      "email": "bdawsfyt@gmail.com",
+      "phone": "0718482661",
+      "role": "user",
+      "status": "active",
+      "createdAt": "2026-05-05T17:41:14.581Z",
+      "id": "75afrNjkLRI"
+    }
+  ],
+  "articles": [
+    {
+      "id": "1",
+      "title": "Introduction aux communications HTTP",
+      "content": "Les communications HTTP sont essentielles pour les applications web modernes. Cet article couvre les bases des requêtes et réponses HTTP.",
+      "authorId": 1,
+      "category": "tutorial",
+      "publishedAt": "2024-01-20T11:00:00Z",
+      "views": 1251,
+      "likes": 45
+    },
+    {
+      "id": "2",
+      "title": "Guide complet de l'API Fetch",
+      "content": "L'API Fetch est une interface moderne pour effectuer des requêtes HTTP. Elle utilise les Promises et offre une syntaxe plus claire que XMLHttpRequest.",
+      "authorId": 1,
+      "category": "technical",
+      "publishedAt": "2024-02-10T09:30:00Z",
+      "views": 893,
+      "likes": 67
+    },
+    {
+      "id": "3",
+      "title": "Axios pour des applications professionnelles",
+      "content": "Axios est une bibliothèque HTTP qui offre des fonctionnalités avancées comme les intercepteurs, l'annulation de requêtes et le suivi de progression.",
+      "authorId": 2,
+      "category": "technical",
+      "publishedAt": "2024-03-05T14:45:00Z",
+      "views": 2341,
+      "likes": 128
+    },
+    {
+      "id": "4",
+      "title": "Gestion des erreurs en HTTP",
+      "content": "Une bonne gestion des erreurs est cruciale pour une expérience utilisateur fluide. Cet article présente les meilleures pratiques.",
+      "authorId": 4,
+      "category": "best-practices",
+      "publishedAt": "2024-03-15T10:00:00Z",
+      "views": 567,
+      "likes": 34
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "articleId": 1,
+      "userId": 3,
+      "content": "Article très instructif, merci pour ce partage !",
+      "createdAt": "2024-01-21T08:30:00Z"
+    },
+    {
+      "id": "2",
+      "articleId": 1,
+      "userId": 2,
+      "content": "J'aurais aimé plus d'exemples pratiques",
+      "createdAt": "2024-01-22T15:20:00Z"
+    },
+    {
+      "id": "3",
+      "articleId": 2,
+      "userId": 4,
+      "content": "Fetch est vraiment puissant une fois qu'on le maîtrise",
+      "createdAt": "2024-02-11T09:15:00Z"
+    },
+    {
+      "id": "4",
+      "articleId": 3,
+      "userId": 1,
+      "content": "Axios reste mon choix préféré pour les gros projets",
+      "createdAt": "2024-03-06T11:00:00Z"
+    },
+    {
+      "id": "5",
+      "articleId": 3,
+      "userId": 3,
+      "content": "Merci pour cette comparaison détaillée",
+      "createdAt": "2024-03-07T16:45:00Z"
+    },
+    {
+      "articleId": "3",
+      "userId": 1,
+      "content": "commentaire 2",
+      "createdAt": "2026-05-05T17:23:36.909Z",
+      "id": "r-UmlPTOrPY"
+    },
+    {
+      "articleId": "2",
+      "userId": 1,
+      "content": "bonne ",
+      "createdAt": "2026-05-05T17:23:56.898Z",
+      "id": "9imf8piYzw4"
+    },
+    {
+      "articleId": "2",
+      "userId": 1,
+      "content": "bon",
+      "createdAt": "2026-05-05T17:41:33.325Z",
+      "id": "UsLWbS0ZBxY"
+    },
+    {
+      "articleId": "1",
+      "userId": 1,
+      "content": " @@@@",
+      "createdAt": "2026-05-05T17:41:43.598Z",
+      "id": "Ch5L54u6EzM"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "tutorial",
+      "label": "Tutoriels"
+    },
+    {
+      "id": "2",
+      "name": "technical",
+      "label": "Technique"
+    },
+    {
+      "id": "3",
+      "name": "best-practices",
+      "label": "Bonnes pratiques"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

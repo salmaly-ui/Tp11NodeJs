@@ -1,0 +1,9 @@
+{
+  "/api/users": "/users",
+  "/api/users/:id": "/users/:id",
+  "/api/articles": "/articles",
+  "/api/articles/:id": "/articles/:id",
+  "/api/articles/:id/comments": "/comments?articleId=:id",
+  "/api/users/:id/articles": "/articles?authorId=:id",
+  "/api/stats": "/users?_page=1&_limit=1"
+}
